@@ -21,6 +21,7 @@ reduc2 = deno//gcd
 #formulas for mixed numbers
 mix1 = nume//deno
 mix2 = nume%deno
+mix3 = reduc1%reduc2
 
 if nume < deno:
     print(f'Whoa. {nume}/{deno} is a proper fraction, neat.')
@@ -33,7 +34,7 @@ else:
     if gcd != 1:
         print(f"Hey, this improper fraction can be reduced to {reduc1}/{reduc2} y'know.")
         if mix2 != 0:
-            print(f'The mixed number is {mix1} and {mix2}/{deno}')
+            print(f'The mixed number is {mix1} and {mix3}/{reduc2}')
         else:
             print(f"Oh! A whole number, and it's {mix1}")
     else:
