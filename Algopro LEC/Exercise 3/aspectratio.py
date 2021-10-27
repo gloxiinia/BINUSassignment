@@ -17,9 +17,9 @@ def calc_new_height():
     #Input validation for width
     while True:
     #Prompts user input for current img height, width and new desired width
-        width_now = eval(input('What\'s the current width of the image?'))
-        height_now = eval(input('Next, what\'s the current height of the image?'))
-        new_width = eval(input('Okay, so what\'s the new width you want for the image?'))
+        width_now = eval(input('What\'s the current width of the image? '))
+        height_now = eval(input('Next, what\'s the current height of the image? '))
+        new_width = eval(input('Okay, so what\'s the new width you want for the image? '))
         if new_width > width_now:
             print('Aw shucks, the new width\'s gotta be smaller than the current width :( \nPlease enter it again yeah?')
             continue
