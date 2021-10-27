@@ -40,7 +40,7 @@ def convert_temp():
     convert2kelvin()
     
     #Prints calculations for user
-    temp_display = print(f'Chills, the temperature in Fahrenheit is:{temp_f}\nWhile the temperature in Celsius is:{temp_c}\nAnd the temperature in Kelvin is:{temp_k}')
+    print(f'Chills, the temperature in Fahrenheit is:{temp_f}\nWhile the temperature in Celsius is:{temp_c}\nAnd the temperature in Kelvin is:{temp_k}')
         
 convert_temp()
 
