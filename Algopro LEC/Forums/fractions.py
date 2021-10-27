@@ -26,7 +26,7 @@ mix3 = reduc1%reduc2
 if nume < deno:
     print(f'Whoa. {nume}/{deno} is a proper fraction, neat.')
     if gcd != 1:
-        print(f'Good news! This proper fraction can be reduced to {reduc1}/{reduc2} ')
+        print(f'Good news! This proper fraction can be reduced to {reduc1}/{reduc2}')
     else:
         print("Alas, this proper fraction can't be reduced.")
 else:
