@@ -23,6 +23,6 @@ def num_atoms(elem_gr, atom_wgt = 196.97):
     numb_atoms = print(6.02214076e+23 * num_moles)
     return numb_atoms
 
-num_atoms(10, 12.001)
+num_atoms(10)
 num_atoms(10, 1.008)
 

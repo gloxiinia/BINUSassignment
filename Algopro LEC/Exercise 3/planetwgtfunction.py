@@ -21,6 +21,8 @@ def calc_wgt_on_plnt(weight, plnt_grv = 23.1):
     wgt_plnt = print(mass * plnt_grv)
     return wgt_plnt
 
+calc_wgt_on_plnt(120, 9.8)
+calc_wgt_on_plnt(120)
 calc_wgt_on_plnt(120, 23.1)
 
 
