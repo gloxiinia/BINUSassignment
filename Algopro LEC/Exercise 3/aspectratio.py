@@ -31,8 +31,8 @@ def calc_new_height():
     #Calculates the new height and rounds it to the nearest whole number
     new_height = round(new_width*asp_ratio,0)
 
-    #Calculates new height
-    new_h = print('Alright, so the height you need for your image to NOT be distorted is', new_height)
+    #Prints new height
+    print('Alright, so the height you need for your image to NOT be distorted is', new_height)
 
     return new_height
 
